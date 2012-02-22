@@ -30,30 +30,35 @@ h1, h2, h3, h4, caption {
 }
 
 h1 {
-	font-size: 230%;
-	font-weight: normal;
-	margin: .3em 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	small {
+	font-size: 18px;
+	}
 }
-
 h2 {
-	font-size: 150%;
-	font-weight: normal;
-	margin: -.3em 0 .3em 0;
+	font-size: 28px;
+	margin-bottom: 10px;
+	small {
+	font-size: 14px;
+	}
 }
-
 h3 {
-	font-size: 1.6em;
-	font-weight: normal;
-	margin-bottom: 2px;
+	font-size: 18px;
+	small {
+	font-size: 14px;
+	}
 }
-
 h4 {
-	font-size: 100%;
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
+	font-size: 14px;
+	small {
+	font-size: 12px;
+	}
 }
-
+h5 {
+	font-size: 12px;
+}
 caption {
 	border: 1px solid #cccccc;
 	background: #E9EDEE;
@@ -90,7 +95,7 @@ a:hover, a:active, a:focus, a:hover b, a:hover var {
 }
 
 code, var, pre {
-	font-family:Monaco, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+	font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 var {
@@ -135,7 +140,6 @@ code a b {
 }
 
 #menu .active > a, #menu > span {
-	color: #333333;
 	background: none;
 	font-weight: bold;
 }
@@ -144,6 +148,9 @@ code a b {
 
 }
 
+#menu hr {
+	display: none;
+}
 #menu #groups span {
 	position: absolute;
 	top: 4px;
