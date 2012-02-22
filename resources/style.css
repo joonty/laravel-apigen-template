@@ -96,7 +96,7 @@ code, var, pre {
 var {
 	font-weight: bold;
 	font-style: normal;
-	color: #ca8a04;
+	color: #719199;
 }
 
 pre {
@@ -292,7 +292,7 @@ code a b {
 }
 
 #navigation ul li a:hover span, #navigation ul li a:active span, #navigation ul li a:focus span {
-	background-color: #999;
+	background-color: #fff;
 }
 
 
