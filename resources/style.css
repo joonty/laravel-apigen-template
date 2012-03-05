@@ -37,6 +37,14 @@ h1 {
 	font-size: 18px;
 	}
 }
+h1.page-title {
+	padding: 20px 0 20px 50px;
+	margin: 0 30px;
+	background: url(book.png) left center no-repeat;
+}
+h1.page-title a {
+	color: inherit;
+}
 h2 {
 	font-size: 28px;
 	margin-bottom: 10px;
@@ -116,7 +124,7 @@ code a b {
 #left {
 	overflow: auto;
 	float:left;
-	width: 270px;
+	width: 340px;
 }
 
 
