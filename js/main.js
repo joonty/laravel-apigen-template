@@ -8,7 +8,6 @@
  * For the full copyright and license information, please view
  * the file LICENSE.md that was distributed with this source code.
  */
-/*
 $(function() {
 	// Menu
 
@@ -125,23 +124,23 @@ $(function() {
 			.hover(function() {
 				clearTimeout(timeout);
 				var $this = $(this);
+				$this.addClass('hover');
 				timeout = setTimeout(function() {
 					$('.short', $this).hide();
 					$('.detailed', $this).show();
 				}, 500);
 			}, function() {
 				clearTimeout(timeout);
+				$(this).removeClass('hover');
 			}).click(function() {
 				// Immediate hover effect on summary
 				clearTimeout(timeout);
 				var $this = $(this);
-				$('.short', $this).hide();
-				$('.detailed', $this).show();
+				$('.short', $this).toggle();
+				$('.detailed', $this).toggle();
 			});
 	}
 
-	*/
-/*
 	// Splitter
 	var $document = $(document);
 	var $left = $('#left');
@@ -195,4 +194,3 @@ $(function() {
 	setNavigationPosition();
 	$(window).resize(setNavigationPosition);
 });
-*/

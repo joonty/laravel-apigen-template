@@ -254,7 +254,7 @@ code a b {
 }
 
 .ac_over {
-	/*background-color: #006aeb;*/
+	background-color: #252626;
 	color: #ffffff;
 }
 
@@ -367,6 +367,7 @@ dl.tree dd {
 	padding: 3px 10px;
 	font-size: 1em;
 	vertical-align: top;
+	cursor: pointer;
 }
 
 .summary td:first-child {
@@ -377,8 +378,8 @@ dl.tree dd {
 	text-align: left;
 }
 
-.summary tr:hover td {
-	background: #f6f6f4;
+.summary tr.hover td {
+	background-color: #F6F6E4;
 }
 
 .summary .description pre {
